@@ -1,0 +1,12 @@
+/* Portable tokens used to document the visual system behind the live instrument. */
+:root {
+  --spectrum-ink: #f7f5ff;
+  --spectrum-night: #09090d;
+  --spectrum-line: rgb(255 255 255 / 16%);
+  --spectrum-muted: rgb(247 245 255 / 58%);
+  --motion-fast: 250ms;
+  --motion-atmosphere: 1600ms;
+  --radius-machine: 28px;
+  --radius-swatch: 8px;
+  --glass-machine: linear-gradient(145deg, rgb(255 255 255 / 9%), rgb(255 255 255 / 2.5%));
+}
