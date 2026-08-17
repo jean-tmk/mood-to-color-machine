@@ -35,4 +35,5 @@ render=function(text,animate=true){
   if(animate)document.querySelector('.machine').animate([{transform:'scale(.988)',filter:'brightness(1.28)'},{transform:'none',filter:'none'}],{duration:680,easing:'cubic-bezier(.2,.8,.2,1)'})
 };
 render(mood.value||'overwhelmed but hopeful',false);
+document.querySelector('footer > span:first-child').textContent='';
 </script></body></html>
