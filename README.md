@@ -11,6 +11,12 @@ An emotional spectrum instrument that translates feelings, plants, natural subje
 - **R** analyzes semantic hue spacing and produces an emotion-color audit dataset with `analysis/mood_color_analysis.R`.
 - **HTML** provides the accessible, dependency-free GitHub Pages shell.
 
+The repository includes the R-produced semantic-spacing dataset at
+`analysis/emotion_color_audit.csv` and the Java-produced WCAG report at
+`reports/palette-accessibility.txt`. The live header carries a quiet stack
+signature so the multi-language architecture is visible without changing the
+composition of the experience.
+
 ## Run the research tools
 
 ```bash
