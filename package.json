@@ -1,0 +1,14 @@
+{
+  "name": "mood-to-color-machine",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A multi-language emotional color laboratory.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "audit:java": "java tools/PaletteAudit.java '#526FA8' '#D44848' '#76A862' '#E0B23C'",
+    "analyze:r": "Rscript analysis/mood_color_analysis.R"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
