@@ -1,0 +1,10 @@
+word,hue,saturation,nearest_emotion,nearest_hue_distance
+sad,214,58,melancholy,10
+angry,1,88,mad,3
+mad,4,86,angry,3
+melancholy,224,38,sad,10
+jealous,114,68,hopeful,67
+hopeful,47,83,anxious,18
+calm,190,54,sad,24
+anxious,29,82,hopeful,18
+love,344,78,angry,17
